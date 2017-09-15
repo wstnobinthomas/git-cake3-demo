@@ -67,7 +67,7 @@ class AppController extends Controller
     	$this->set('default_limit_dropdown', $this->default_limit_dropdown);
         $this->set('limits', $this->limits);
         
-        $this->Auth->allow(['login','forgotpassword','resetforgottenpassword','ajax_duplicateemail']);        
+        $this->Auth->allow(['login','logout','forgotpassword','resetforgottenpassword','ajax_duplicateemail']);        
     }
     
     /**
