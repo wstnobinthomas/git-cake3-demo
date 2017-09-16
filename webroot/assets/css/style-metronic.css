@@ -131,7 +131,7 @@ Buttons & Dropdown Buttons
 .btn.blue.active,
 .btn.blue[disabled],
 .btn.blue.disabled {  
-  background-color: #0362fd !important;
+  background-color: #1a71c5 !important;
   color: #fff !important;
   outline: none !important;
 }
