@@ -1,0 +1,193 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27130.2010
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web", "Web\Web.csproj", "{E96F2BB1-4A3F-40C0-8FC1-6FC5008A9659}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Web.Tests", "Web.Tests\Web.Tests.csproj", "{52116872-F256-43B9-9C84-B703C2854272}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "WebApi\WebApi.csproj", "{0E697BB0-D2ED-48AC-BFF5-5693504EB260}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi.Tests", "WebApi.Tests\WebApi.Tests.csproj", "{8BBC0DC7-95B5-4CAD-85B0-7F82B985FAB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Data", "Data\Data.csproj", "{D26A4EBE-8C31-4974-83B6-4B85D51EAE2C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.Web", "Services.Web\Services.Web.csproj", "{A98DF6D4-6B7B-4950-95EB-7D1E5956F07B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.Web", "Repository.Web\Repository.Web.csproj", "{3C388AB8-A39E-4355-A210-ED543DEB2CFE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Client", "Client\Client.csproj", "{6DE6D2A6-9DD3-468B-AD6A-A5ED59783576}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{28C98839-2F28-4C98-B809-C0C635CC0724}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Services.WebApi", "Services.WebApi\Services.WebApi.csproj", "{3F70FF9C-61E1-4F51-AA65-1B044C369F31}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repository.WebApi", "Repository.WebApi\Repository.WebApi.csproj", "{BCFF7BEC-7DB2-4461-AE11-324C787C78A3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Handlers", "Handlers\Handlers.csproj", "{DA5501A0-A7C3-4C6F-A73E-EBC4DEFB9A8E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reports", "Reports\Reports.csproj", "{6BB640F4-97D1-4FA8-A3A8-864E46351227}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E96F2BB1-4A3F-40C0-8FC1-6FC5008A9659}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E96F2BB1-4A3F-40C0-8FC1-6FC5008A9659}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E96F2BB1-4A3F-40C0-8FC1-6FC5008A9659}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E96F2BB1-4A3F-40C0-8FC1-6FC5008A9659}.Release|Any CPU.Build.0 = Release|Any CPU
+		{52116872-F256-43B9-9C84-B703C2854272}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{52116872-F256-43B9-9C84-B703C2854272}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{52116872-F256-43B9-9C84-B703C2854272}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{52116872-F256-43B9-9C84-B703C2854272}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E697BB0-D2ED-48AC-BFF5-5693504EB260}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E697BB0-D2ED-48AC-BFF5-5693504EB260}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E697BB0-D2ED-48AC-BFF5-5693504EB260}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E697BB0-D2ED-48AC-BFF5-5693504EB260}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8BBC0DC7-95B5-4CAD-85B0-7F82B985FAB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8BBC0DC7-95B5-4CAD-85B0-7F82B985FAB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8BBC0DC7-95B5-4CAD-85B0-7F82B985FAB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8BBC0DC7-95B5-4CAD-85B0-7F82B985FAB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D26A4EBE-8C31-4974-83B6-4B85D51EAE2C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D26A4EBE-8C31-4974-83B6-4B85D51EAE2C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D26A4EBE-8C31-4974-83B6-4B85D51EAE2C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D26A4EBE-8C31-4974-83B6-4B85D51EAE2C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A98DF6D4-6B7B-4950-95EB-7D1E5956F07B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A98DF6D4-6B7B-4950-95EB-7D1E5956F07B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A98DF6D4-6B7B-4950-95EB-7D1E5956F07B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A98DF6D4-6B7B-4950-95EB-7D1E5956F07B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3C388AB8-A39E-4355-A210-ED543DEB2CFE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3C388AB8-A39E-4355-A210-ED543DEB2CFE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3C388AB8-A39E-4355-A210-ED543DEB2CFE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3C388AB8-A39E-4355-A210-ED543DEB2CFE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6DE6D2A6-9DD3-468B-AD6A-A5ED59783576}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6DE6D2A6-9DD3-468B-AD6A-A5ED59783576}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6DE6D2A6-9DD3-468B-AD6A-A5ED59783576}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6DE6D2A6-9DD3-468B-AD6A-A5ED59783576}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28C98839-2F28-4C98-B809-C0C635CC0724}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28C98839-2F28-4C98-B809-C0C635CC0724}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28C98839-2F28-4C98-B809-C0C635CC0724}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28C98839-2F28-4C98-B809-C0C635CC0724}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3F70FF9C-61E1-4F51-AA65-1B044C369F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3F70FF9C-61E1-4F51-AA65-1B044C369F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3F70FF9C-61E1-4F51-AA65-1B044C369F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3F70FF9C-61E1-4F51-AA65-1B044C369F31}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCFF7BEC-7DB2-4461-AE11-324C787C78A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCFF7BEC-7DB2-4461-AE11-324C787C78A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCFF7BEC-7DB2-4461-AE11-324C787C78A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCFF7BEC-7DB2-4461-AE11-324C787C78A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DA5501A0-A7C3-4C6F-A73E-EBC4DEFB9A8E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DA5501A0-A7C3-4C6F-A73E-EBC4DEFB9A8E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DA5501A0-A7C3-4C6F-A73E-EBC4DEFB9A8E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DA5501A0-A7C3-4C6F-A73E-EBC4DEFB9A8E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6BB640F4-97D1-4FA8-A3A8-864E46351227}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6BB640F4-97D1-4FA8-A3A8-864E46351227}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6BB640F4-97D1-4FA8-A3A8-864E46351227}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6BB640F4-97D1-4FA8-A3A8-864E46351227}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CBCFCCD1-A930-47DD-AA36-C4F02C7B7E60}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 14
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://tfs.opoc.co/tfs/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = Client\\Client.csproj
+		SccProjectName1 = Client
+		SccLocalPath1 = Client
+		SccProjectUniqueName2 = Data\\Data.csproj
+		SccProjectName2 = Data
+		SccLocalPath2 = Data
+		SccProjectUniqueName3 = Handlers\\Handlers.csproj
+		SccProjectName3 = Handlers
+		SccLocalPath3 = Handlers
+		SccProjectUniqueName4 = Reports\\Reports.csproj
+		SccProjectName4 = Reports
+		SccLocalPath4 = Reports
+		SccProjectUniqueName5 = Repository.Web\\Repository.Web.csproj
+		SccProjectName5 = Repository.Web
+		SccLocalPath5 = Repository.Web
+		SccProjectUniqueName6 = Repository.WebApi\\Repository.WebApi.csproj
+		SccProjectName6 = Repository.WebApi
+		SccLocalPath6 = Repository.WebApi
+		SccProjectUniqueName7 = Services.Web\\Services.Web.csproj
+		SccProjectName7 = Services.Web
+		SccLocalPath7 = Services.Web
+		SccProjectUniqueName8 = Services.WebApi\\Services.WebApi.csproj
+		SccProjectName8 = Services.WebApi
+		SccLocalPath8 = Services.WebApi
+		SccProjectUniqueName9 = Shared\\Shared.csproj
+		SccProjectName9 = Shared
+		SccLocalPath9 = Shared
+		SccProjectUniqueName10 = Web.Tests\\Web.Tests.csproj
+		SccProjectName10 = Web.Tests
+		SccLocalPath10 = Web.Tests
+		SccProjectUniqueName11 = Web\\Web.csproj
+		SccProjectName11 = Web
+		SccLocalPath11 = Web
+		SccProjectUniqueName12 = WebApi.Tests\\WebApi.Tests.csproj
+		SccProjectName12 = WebApi.Tests
+		SccLocalPath12 = WebApi.Tests
+		SccProjectUniqueName13 = WebApi\\WebApi.csproj
+		SccProjectName13 = WebApi
+		SccLocalPath13 = WebApi
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+	GlobalSection(Performance) = preSolution
+		HasPerformanceSessions = true
+	EndGlobalSection
+EndGlobal
